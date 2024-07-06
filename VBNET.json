@@ -1,0 +1,36 @@
+Parse the following resume and output the content in JSON format. The resume sections include "Contact Information", "Summary", "Experience", "Education", "Skills", and "Certifications". Each section should be a key in the JSON object, with the corresponding content as values. Here's the resume:
+
+[Insert Resume Here]
+
+Output format:
+{
+  "Contact Information": {
+    "Name": "",
+    "Address": "",
+    "Phone": "",
+    "Email": "",
+    "LinkedIn": ""
+  },
+  "Summary": "",
+  "Experience": [
+    {
+      "Job Title": "",
+      "Company": "",
+      "Location": "",
+      "Start Date": "",
+      "End Date": "",
+      "Responsibilities": ""
+    }
+  ],
+  "Education": [
+    {
+      "Degree": "",
+      "Institution": "",
+      "Location": "",
+      "Start Date": "",
+      "End Date": ""
+    }
+  ],
+  "Skills": [],
+  "Certifications": []
+}
